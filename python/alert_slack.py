@@ -10,7 +10,6 @@ parser = argparse.ArgumentParser(description="Send messages to Slack!")
 
 parser.add_argument('-m', type=str, dest='message',
                     help='Message to Post to Slack')
-
 parser.add_argument('--log-file', type=str, dest='log_file', default=None,
                     help='Path to logfile to be sent to slack.')
 parser.add_argument('--webhook-url', type=str, dest='webhook',
